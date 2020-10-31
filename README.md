@@ -6,9 +6,10 @@ The folder containing this readme can set up a development stack environment to 
 
 In this folder you will find different files and folders : 
 <ul>
-<li><strong>apache/</strong> : contains the Dockerfile to setup the apache server and a html folder with a simple php site template.</li>
+<li><strong>apache/</strong> : contains the Dockerfile to setup the apache server .</li>
 <li><strong>browser/</strong> : contains the Dockerfile to setup the browser, here we have a firefox.</li>
-<li><strong>docker-compose.yml</strong> : file which allowed to setup the all environment specifying some configuration for each container</li>
+<li><strong>sublime</strong> : contains the Dockerfile to setup sublime and a html folder with a simple php site template. Everything in this folder will be copied in the sublime container (/home/).</li>
+<li><strong>docker-compose.yml</strong> : file which allowed to setup the all environment specifying some configuration for each container.</li>
 <li><strong>README.md</strong> : this file</li>
 </ul>
 

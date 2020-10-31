@@ -10,7 +10,7 @@ services:
     stdin_open: true # -i
     tty: true # -t
   sublime:
-    image: jess/sublime-text-3
+    build: ./sublime
     volumes:
     - /tmp/.X11-unix:/tmp/.X11-unix
     - /var/www/html:/home/code
